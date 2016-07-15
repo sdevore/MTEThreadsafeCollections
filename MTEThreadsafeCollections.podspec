@@ -9,7 +9,6 @@ Pod::Spec.new do |spec|
   	spec.license      = "MIT"
   	spec.author       = { "mheicke" => "matthias.heicke@mateforevents.com" }
   	spec.social_media_url = "https://www.facebook.com/mateforevents"
-  	spec.platform     = :ios, "7.0"
 	spec.requires_arc = true
 	
 	spec.source       = { :git => "https://github.com/mateforevents/MTEThreadsafeCollections.git", :tag => "v#{spec.version}" }
